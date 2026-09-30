@@ -1,0 +1,12 @@
+{
+  "name": "smart-crop-fintech-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/smart_crop_service.ts",
+    "test": "tsx src/smart_crop_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.0.0", "tsx": "^4.19.2", "typescript": "^5.6.3" }
+}
